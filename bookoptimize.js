@@ -5,4 +5,4 @@ $(
 
 $("#kindlep").click();
 $("input[disabled]").attr("disabled", null);
-$("#thumbnail, #bold_flg, #dropbox_flg, #kindle_flg").click();
+$("#thumbnail, #bold_flg, #kindle_flg").click();

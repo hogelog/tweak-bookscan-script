@@ -6,7 +6,7 @@
   "content_scripts": [
     {
       "matches": [
-        "https://system.bookscan.co.jp/bookshelf_all_list.php"
+        "https://system.bookscan.co.jp/bookshelf_all_list.php*"
       ],
       "js": ["jquery-2.1.0.min.js", "all_list.js"],
       "run_at": "document_end"
